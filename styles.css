@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    display: flex;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.colorContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.color {
+    outline: 2px solid black;
+    width: 25vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
